@@ -1,0 +1,31 @@
+.row {
+  display: grid;
+  //align-items: center;
+  grid-template-columns: auto auto auto auto;
+  //grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 0.5rem;
+}
+
+
+.profile-image {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  padding: 0.5rem;
+}
+
+
+.profile-bio {
+  line-height: 1.5pt;
+  font-size: 11.5pt;
+}
+
+.profile-name {
+  white-space: initial;
+}
+
+.card-footer {
+  font-size: 10.2pt;
+  height: 1.5rem;
+  overflow: hidden;
+}
